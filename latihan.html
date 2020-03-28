@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hehehehe</title>
+	<style>
+	.hehehe{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+	}
+
+	.hehehe a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+	}
+a{
+
+	}
+	</style>
+</head>
+<body>
+
+
+<button onclick="fungsiSaya()">Hello</button>
+<p>hehehe</p>
+ 
+<div class="hehehe" id="target">
+ <a href="#">Item1</a>
+ <a href="#">Item2</a>
+ <a href="#">Item3</a>
+ </div>
+ 
+<script>
+function fungsiSaya() {
+  var x = document.getElementById("target");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+</body>
+</html>
